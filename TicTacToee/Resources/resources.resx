@@ -1,0 +1,32 @@
+<root>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Welcome to the TicTacToe game, developed by me, theusDev! </value>
+  </data>
+  <data name="VisitMessage" xml:space="preserve">
+    <value>Check out my other projects at https://github.com/thetheusdev.</value>
+  </data>
+  <data name="SelectOpponent" xml:space="preserve">
+    <value>Do you want to play against another player or the computer? (play/pc):</value>
+  </data>
+  <data name="InvalidResponse" xml:space="preserve">
+    <value>Invalid response, try again.</value>
+  </data>
+  <data name="PlayerMovePrompt" xml:space="preserve">
+    <value>Player {0}, choose your position (1-9):</value>
+  </data>
+  <data name="WinMessage" xml:space="preserve">
+    <value>Player {0} won!!!</value>
+  </data>
+  <data name="DrawMessage" xml:space="preserve">
+    <value>It's a draw!!!</value>
+  </data>
+  <data name="PlayAgainPrompt" xml:space="preserve">
+    <value>Play again? (yes/no)</value>
+  </data>
+  <data name="SwitchOrExit" xml:space="preserve">
+    <value>Do you want to switch opponents or exit? (switch/exit)</value>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Thank you for playing! Check out my other projects at https://github.com/thetheusdev.</value>
+  </data>
+</root>
