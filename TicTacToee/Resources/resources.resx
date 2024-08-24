@@ -1,9 +1,9 @@
 <root>
   <data name="WelcomeMessage" xml:space="preserve">
-    <value>Welcome to the TicTacToe game, developed by me, theusDev! </value>
+    <value>Welcome to the TicTacToe game, developed by me, theuslima! </value>
   </data>
   <data name="VisitMessage" xml:space="preserve">
-    <value>Check out my other projects at https://github.com/thetheusdev.</value>
+    <value>Check out my other projects at https://github.com/theuslimaa.</value>
   </data>
   <data name="SelectOpponent" xml:space="preserve">
     <value>Do you want to play against another player or the computer? (play/pc):</value>
@@ -27,6 +27,6 @@
     <value>Do you want to switch opponents or exit? (switch/exit)</value>
   </data>
   <data name="ExitMessage" xml:space="preserve">
-    <value>Thank you for playing! Check out my other projects at https://github.com/thetheusdev.</value>
+    <value>Thank you for playing! Check out my other projects at https://github.com/theuslimaa.</value>
   </data>
 </root>
