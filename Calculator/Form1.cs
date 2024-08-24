@@ -15,9 +15,6 @@ namespace Calculator
         string fstNum, secNum; // First and second numbers in the calculation.
         bool addValue = false; // Flag to determine if a new value should be added.
 
-        private Timer timerMinimizer; // Timer to handle form minimization animation.
-        private int step = 20; // Number of pixels to reduce the form height per timer tick.
-
         // Import external methods for window manipulation
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
@@ -41,11 +38,6 @@ namespace Calculator
             this.MouseDown += new MouseEventHandler(Calculator_MouseDown);
             CalculatorName.MouseDown += new MouseEventHandler(Calculator_MouseDown);
             PictureBox.MouseDown += new MouseEventHandler(Calculator_MouseDown);
-
-            // Initialize and configure the timer for minimizing the form
-            timerMinimizer = new Timer();
-            timerMinimizer.Interval = 10; // Timer interval in milliseconds.
-            timerMinimizer.Tick += new EventHandler(timerMinimizer_Tick); // Attaches Tick event handler.
         }
 
         private void Calculator_Load(object sender, EventArgs e)
@@ -67,19 +59,6 @@ namespace Calculator
             {
                 ReleaseCapture(); // Release the mouse capture from the form.
                 SendMessage(this.Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0); // Send message to move the form.
-            }
-        }
-
-        private void timerMinimizer_Tick(object sender, EventArgs e)
-        {
-            if (this.Height > 0) // If the form's height is greater than 0
-            {
-                this.Height -= step; // Reduce the height by the step value.
-            }
-            else
-            {
-                timerMinimizer.Stop(); // Stop the timer.
-                this.WindowState = FormWindowState.Minimized; // Minimize the form.
             }
         }
 
@@ -222,7 +201,6 @@ namespace Calculator
         {
             // Handles the minimize button click
             this.WindowState = FormWindowState.Minimized; // Minimize the form.
-            timerMinimizer.Start(); // Start the minimizer timer.
         }
 
         private void BtnNum_Paint(object sender, PaintEventArgs e)

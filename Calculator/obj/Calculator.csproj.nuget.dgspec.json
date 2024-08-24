@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp .NET\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp.NET\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp .NET\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp.NET\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp .NET\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp.NET\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp .NET\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp.NET\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\noutz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp .NET\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\noutz\\OneDrive\\Documentos\\TI\\Projetos\\CSharp.NET\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
