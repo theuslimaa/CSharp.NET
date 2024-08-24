@@ -1,9 +1,9 @@
 <root>
   <data name="WelcomeMessage" xml:space="preserve">
-    <value>Bem vindo ao jogo da velha, desenvolvido por mim, theusDev!</value>
+    <value>Bem vindo ao jogo da velha, desenvolvido por mim, theuslimaa!</value>
   </data>
   <data name="VisitMessage" xml:space="preserve">
-    <value>Veja meus outros projetos em https://github.com/thetheusdev.</value>
+    <value>Veja meus outros projetos em https://github.com/theuslimaa.</value>
   </data>
   <data name="SelectOpponent" xml:space="preserve">
     <value>Deseja jogar contra um jogador ou contra o computador? (jog/pc):</value>
@@ -27,6 +27,6 @@
     <value>Digite voltar para mudar as configurações ou sair para terminar o jogo (voltar/sair)</value>
   </data>
   <data name="ExitMessage" xml:space="preserve">
-    <value>Muito obrigado por jogar e veja os meus outros projetos em https://github.com/thetheusdev.</value>
+    <value>Muito obrigado por jogar e veja os meus outros projetos em https://github.com/theuslimaa.</value>
   </data>
 </root>
